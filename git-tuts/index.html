@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <title>Creating a Landing Page of Restaurant....</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://t3.ftcdn.net/jpg/02/41/30/72/360_F_241307210_MjjaJC3SJy2zJZ6B7bKGMRsKQbdwRSze.jpg" class="food-logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" id="navItem1" href="#aboutSection">About </a>
+                        <a class="nav-link active" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
+                
+                        <a class="nav-link active" href="#reviewSection" id="navItem4">Testimonials</a>
+                        <a class="nav-link active" href="#followusSection" id="navItem6">Follow Us</a>
+                    </div>
+                </div>
+                <div class="icons">
+                    <div class="fas fa-search ml-3 mr-3"></div>
+                    <div class="fas fa-shopping-cart"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="food-shop-banner-section d-flex flex-column justify-content-center">
+        <div class="text-center p-5">
+            <h1 class="restaurant-heading  mb-3 justify-content-end">For People Who Love Food .</h1>
+            <p class="food-shop-caption mb-5">“ A pinch of passion in every dish.” </p>
+            <button class="get-food-button">Get It Now</button>
+        </div>
+    </div>
+    <div class="about-section pt-5 pb-5" id="aboutSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <h1 class="section-heading">About Us</h1>
+                </div>      
+                <div class="col-12 col-md-6 ">
+                    <img src="https://images6.alphacoders.com/439/439410.jpg" class="about-img"/>
+                </div>    
+                <div class="col-12 col-md-6" >
+                    <h1 class="about-heading">What makes our Coffee Special?</h1>
+                    <p class="about-description">Every dish has speial features by variety of spices that make each dish exotic, delicious, and stand out from the rest of the cuisines in the world. We love bringing that moment of delight to our customers.Our community of customers is our family. And we strive to serve our family with passion and care everyday.We believe in constant innovation to design food for both the experienced and novice palate.We believe our food are for everyone, regardless of whether someone is a hard-core enthusiast or a casual explorer. Everyone's welcome at Resto.</p>
+                    <button class="about-button">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="explore-menu-section pt-5  pb-5" id="exploreMenuSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="section-heading">Explore Menu</h1>
+            </div>  
+            <div class="col-12 mb-3">
+                <h2 class="types-food">Food-Items Available</h2>
+            </div>    
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="shadow food-items">
+                    <img class="images mb-3" src="https://t4.ftcdn.net/jpg/05/80/83/11/360_F_580831163_gHJgKLXz4TxnZRSnVpdi779YnI6Vk0FL.jpg"/>
+                    <h3 class="food-names">Biryani</h3>
+                    <p class="food-prices">Starting from Rs: 120/-</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="shadow food-items">
+                    <img class="images mb-3" src="https://media.istockphoto.com/id/1150376652/photo/chicken-tikka-indian-food.jpg?s=612x612&w=0&k=20&c=lC-d6QLXD9egRifPxRrm2Px1W005gS1rfwIbF9wFjbQ="/>
+                    <h3 class="food-names">Starters</h3>
+                    <p class="food-prices">Starting from Rs: 130/-</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="shadow food-items">
+                    <img class="images mb-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ24-j_1CYU_piAus48jGn7sInKdv2XakRDsA&usqp=CAU"/>
+                    <h3 class="food-names">Soups</h3>
+                    <p class="food-prices">Starting from Rs: 100/-</p>
+                </div>
+            </div>  
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="shadow food-items">
+                    <img class="images mb-3" src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"/>
+                    <h3 class="food-names">Pizza</h3>
+                    <p class="food-prices">Starting from Rs: 180/-</p>
+                </div>
+            </div>
+            <div class="col-12  mb-3">
+                <h2 class="types-food">Desserts and Drinks</h2>
+            </div>    
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="shadow food-items">
+                    <img class="images mb-3" src="https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F1825%2Ftrend20180327062018.jpg"/>
+                    <h3 class="food-names">Ice cream</h3>
+                    <p class="food-prices">Starting from Rs: 50/-</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="shadow food-items">
+                    <img class="images mb-3" src="https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzc2VydHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"/>
+                    <h3 class="food-names">Donuts</h3>
+                    <p class="food-prices">Starting from Rs: 70/-</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="shadow food-items">
+                    <img class="images mb-3" src="https://images.unsplash.com/photo-1595977514600-72cbc8376c38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9ja3RhaWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80"/>
+                    <h3 class="food-names">Mocktails</h3>
+                    <p class="food-prices">Starting from Rs: 100/-</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="shadow food-items">
+                    <img class="images mb-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkrOsYuEPuuugA7uNDh5L6Qjki2fAxPsuRAg&usqp=CAU"/>
+                    <h3 class="food-names">Fruit Juices</h3>
+                    <p class="food-prices">Starting from Rs: 30/-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="review-section pt-5 pb-5" id="reviewSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="section-heading mb-3">Customer's Review</h1>
+            </div> 
+            <div class="reviews col-12 col-md-4 col-lg-3">
+                <h5 class="customer-names text-center ">Ritu</h5>
+                <p class="customer-review">This place is amazing! They offered the best food and showed the best attitude to its costumers. This place is indeed perfect chilling out. It was very quiet and air-conditioned. I just want to keep coming back to this place. Thank you!                </p>       
+                <div class="stars text-center mb-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="reviews col-12 col-md-4 col-lg-3">
+                <h5 class="customer-names text-center">Jahvi</h5>
+                <p  class="customer-review">I really like the atmosphere, good delicious food, and nice interior. This is a good place to chill with friends. The drinks and foods were all tasty and worthwhile. If you’re up for a fresh place with beautiful architecture then this is a must to visit.
+                </p>
+                <div class="stars text-center mb-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="reviews col-12 col-md-4 col-lg-3 ">
+                <h5 class="customer-names text-center">Arush</h5>
+                <p class="customer-review">This Resto is my favorite place to hang and enjoy the taste of food. I really like this place because it has a good ambiance and not too crowded as well. Keema biryani was fantastic, and I recommend people must try that dish..</p>
+                <div class="stars text-center mb-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="reviews col-12 col-md-4 col-lg-3">
+                <h5 class="customer-names text-center">Yathin</h5>
+                <p class="customer-review">This Restaurant has it all. The ambiance, interior designs, tasty foods, and fast wi-fi connection. Prices are a bit high but once you already taste it, you understand why. It is simply one of the best and my favorites Resto in town. Overall. Highly recommended!</p>
+                <div class="stars text-center mb-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="follow-us-section pt-3 pb-3" id="followusSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-3">
+                <h1 class="section-heading">Follow Us</h1>
+            </div>
+            <div class="col-12">
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="icon-container mr-3">
+                        <i class="fab fa-twitter icon"></i>
+                    </div>
+                    <div class="icon-container mr-3">
+                        <i class="fab fa-instagram icon"></i>
+                    </div>
+                    <div class="icon-container">
+                        <i class="fab fa-facebook icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+<div class="footer-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="https://t3.ftcdn.net/jpg/02/41/30/72/360_F_241307210_MjjaJC3SJy2zJZ6B7bKGMRsKQbdwRSze.jpg" class="coffee-logo mb-3" />
+                <h1 class="email-id mb-3">orderfood@therestofood.com</h1>
+                <p class="shop-address mb-3">
+                    Contact Us: +91550732 79298, +9123456 28888. 
+                    <br/>
+                    RoadNo:12, Chanda Nagar, Hydearabad, India.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+</body>
+</html>
+
+    
+
+
+
+
+
+
+    
+    
